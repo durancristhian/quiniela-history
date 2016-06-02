@@ -1,0 +1,46 @@
+{
+  "name": "quiniela-history",
+  "version": "1.0.0",
+  "description": "quiniela-history",
+  "main": "lib/index.js",
+  "scripts": {
+    "commit": "git cz",
+    "lint": "standard",
+    "start": "node lib/index"
+  },
+  "engines": {
+    "node": "6"
+  },
+  "author": "Cristhian Javier Duran <durancristhian@gmail.com> (https://github.com/durancristhian)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/durancristhian/quiniela-history.git"
+  },
+  "bugs": {
+    "url": "https://github.com/durancristhian/quiniela-history/issues"
+  },
+  "keywords": [
+    "quiniela",
+    "argentina"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "async": "1.5.2",
+    "beautylog": "5.0.8",
+    "ghooks": "1.2.1",
+    "moment": "2.13.0",
+    "quiniela-results": "1.0.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "1.1.6",
+    "standard": "7.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}
