@@ -1,12 +1,14 @@
 {
   "name": "quiniela-history",
-  "version": "1.0.0",
   "description": "quiniela-history",
+  "version": "1.0.0-semantically-released",
   "main": "lib/index.js",
   "scripts": {
     "commit": "git cz",
     "lint": "standard",
-    "start": "node lib/index"
+    "start": "node lib/index",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "npm run lint"
   },
   "engines": {
     "node": "6"
@@ -33,7 +35,8 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "1.1.6",
-    "standard": "7.1.1"
+    "standard": "7.1.1",
+    "semantic-release": "4.3.5"
   },
   "config": {
     "commitizen": {
