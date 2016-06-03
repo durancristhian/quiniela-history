@@ -2,7 +2,7 @@
   "name": "quiniela-history",
   "description": "quiniela-history",
   "version": "1.0.0-semantically-released",
-  "main": "lib/program.js",
+  "preferGlobal": true,
   "scripts": {
     "commit": "git cz",
     "lint": "standard",
@@ -12,6 +12,9 @@
   },
   "engines": {
     "node": "6"
+  },
+  "bin": {
+    "quiniela-history": "./bin/cli.js"
   },
   "author": "Cristhian Javier Duran <durancristhian@gmail.com> (https://github.com/durancristhian)",
   "repository": {
@@ -29,6 +32,7 @@
   "dependencies": {
     "async": "1.5.2",
     "beautylog": "5.0.8",
+    "commander": "2.9.0",
     "moment": "2.13.0",
     "quiniela-results": "1.0.0"
   },
