@@ -9,4 +9,28 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/durancristhian/quiniela-history/blob/master/LICENSE)
 
-quiniela-history
+`quiniela-history` is a CLI to obtain the results of the argentinian lotery
+
+## Demo
+
+![quiniela-history](https://raw.githubusercontent.com/durancristhian/quiniela-history/master/images/quiniela-history-demo.gif)
+
+## Instalation
+
+```bash
+npm i -g quiniela-history
+```
+
+## Use
+
+```bash
+quiniela-history --from 2016/06/01 --to 2016/06/03
+```
+
+## Contributing
+
+No restriction at all. Feel free to contribute with whatever you want
+
+## License
+
+MIT
