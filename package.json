@@ -2,11 +2,11 @@
   "name": "quiniela-history",
   "description": "quiniela-history",
   "version": "1.0.0-semantically-released",
-  "main": "lib/index.js",
+  "main": "lib/program.js",
   "scripts": {
     "commit": "git cz",
     "lint": "standard",
-    "start": "node lib/index",
+    "start": "node lib/program",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "npm run lint"
   },
