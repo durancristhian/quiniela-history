@@ -2,6 +2,7 @@
   "name": "quiniela-history",
   "description": "quiniela-history",
   "version": "1.0.0-semantically-released",
+  "main": "lib/program.js",
   "preferGlobal": true,
   "scripts": {
     "commit": "git cz",
