@@ -9,7 +9,7 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/durancristhian/quiniela-history/blob/master/LICENSE)
 
-`quiniela-history` is a CLI to obtain the results of the argentinian lotery
+`quiniela-history` is a module to obtain the results of the argentinian lotery
 
 ## Demo
 
@@ -21,10 +21,21 @@
 npm i -g quiniela-history
 ```
 
-## Use
+## Use 1: as a CLI
 
 ```bash
 quiniela-history --from 2016/06/01 --to 2016/06/03
+```
+
+## Use 2: as any other npm module
+
+```javascript
+const quinielaHistory = require('quiniela-history')
+
+quinielaHistory(
+  '2016/06/01', // from
+  '2016/06/05' // to
+)
 ```
 
 ## Contributing
