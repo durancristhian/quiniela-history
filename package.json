@@ -32,15 +32,15 @@
   "license": "MIT",
   "dependencies": {
     "async": "1.5.2",
-    "beautylog": "5.0.8",
+    "beautylog": "5.0.13",
     "commander": "2.9.0",
-    "moment": "2.13.0",
-    "quiniela-results": "1.0.0"
+    "moment": "2.14.1",
+    "quiniela-results": "2.1.0"
   },
   "devDependencies": {
     "cz-conventional-changelog": "1.1.6",
-    "ghooks": "1.2.1",
-    "standard": "7.1.1",
+    "ghooks": "1.3.2",
+    "standard": "7.1.2",
     "semantic-release": "4.3.5"
   },
   "config": {
