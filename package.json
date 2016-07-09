@@ -1,15 +1,15 @@
 {
   "name": "quiniela-history",
   "description": "quiniela-history",
-  "version": "1.0.0-semantically-released",
+  "version": "0.0.0-semantically-released",
   "main": "lib/program.js",
   "preferGlobal": true,
   "scripts": {
+    "check-vulnerable-dependencies": "nsp check",
     "commit": "git cz",
-    "lint": "standard",
-    "start": "node lib/program",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "test": "npm run lint"
+    "dependency-check": "dependency-check ./package.json",
+    "lint": "standard | snazzy",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "engines": {
     "node": "6"
@@ -39,9 +39,12 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "1.1.6",
+    "dependency-check": "^2.5.2",
     "ghooks": "1.2.1",
-    "standard": "7.1.1",
-    "semantic-release": "4.3.5"
+    "nsp": "^2.6.0",
+    "semantic-release": "4.3.5",
+    "snazzy": "^4.0.0",
+    "standard": "7.1.1"
   },
   "config": {
     "commitizen": {
