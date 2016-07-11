@@ -35,7 +35,7 @@
     "beautylog": "^5.0.13",
     "commander": "^2.9.0",
     "moment": "^2.14.1",
-    "quiniela-results": "^2.2.0"
+    "quiniela-results": "^2.2.1"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.6",
@@ -51,7 +51,7 @@
       "path": "./node_modules/cz-conventional-changelog"
     },
     "ghooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "npm run check-vulnerable-dependencies && npm run dependency-check && npm run lint"
     }
   }
 }

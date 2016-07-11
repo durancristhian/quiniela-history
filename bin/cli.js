@@ -9,8 +9,8 @@ const pkg = require('../package.json')
 commander
   .version(pkg.version)
   .usage('--from [YYYY/MM/DD] --to [YYYY/MM/DD]')
-  .option('--from <YYYY/MM/DD>', `'YYYY-MM-DD' format required`) // eslint-disable-line quotes
-  .option('--to <YYYY/MM/DD>', `'YYYY-MM-DD' format required`) // eslint-disable-line quotes
+  .option('--from [YYYY/MM/DD]', `'YYYY-MM-DD' format required`) // eslint-disable-line quotes
+  .option('--to [YYYY/MM/DD]', `'YYYY-MM-DD' format required`) // eslint-disable-line quotes
   .parse(process.argv)
 
 if (!commander.from || !commander.to) commander.help()
