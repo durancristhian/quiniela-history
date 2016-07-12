@@ -4,6 +4,10 @@
   "version": "0.0.0-semantically-released",
   "main": "lib/program.js",
   "preferGlobal": true,
+  "files": [
+    "bin",
+    "lib"
+  ],
   "scripts": {
     "check-vulnerable-dependencies": "nsp check",
     "commit": "git cz",
