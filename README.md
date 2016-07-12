@@ -15,7 +15,7 @@ Module to obtain the results of the argentinian lotery.
 
 ## Demo
 
-![quiniela-history](https://raw.githubusercontent.com/durancristhian/quiniela-history/master/images/quiniela-history-demo-1.gif)
+![quiniela-history](https://raw.githubusercontent.com/durancristhian/quiniela-history/master/images/quiniela-history-demo-2.gif)
 
 ## Instalation
 
