@@ -32,7 +32,6 @@
   "license": "MIT",
   "dependencies": {
     "async": "^1.5.2",
-    "beautylog": "^5.0.13",
     "commander": "^2.9.0",
     "moment": "^2.14.1",
     "quiniela-results": "^2.2.1"

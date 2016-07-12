@@ -13,7 +13,9 @@ commander
   .option('--to [YYYY/MM/DD]', `'YYYY-MM-DD' format required`) // eslint-disable-line quotes
   .parse(process.argv)
 
-if (!commander.from || !commander.to) commander.help()
+if (!commander.from || !commander.to) {
+  commander.help()
+}
 
 program(commander.from, commander.to)
   .then(() => process.exit(0))
