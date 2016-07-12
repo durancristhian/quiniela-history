@@ -17,6 +17,6 @@ if (!commander.from || !commander.to) {
   commander.help()
 }
 
-program(commander.from, commander.to)
+program(commander.from, commander.to, { emitLogs: true })
   .then(() => process.exit(0))
   .catch(error => console.error(error))
