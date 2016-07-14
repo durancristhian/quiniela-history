@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/quiniela-history.svg)](https://www.npmjs.com/package/quiniela-history)
 [![Travis branch](https://img.shields.io/travis/durancristhian/quiniela-history/master.svg?maxAge=2592000)](https://travis-ci.org/durancristhian/quiniela-history)
+[![Dependency Status](https://dependencyci.com/github/durancristhian/quiniela-history/badge)](https://dependencyci.com/github/durancristhian/quiniela-history)
 [![node](https://img.shields.io/node/v/quiniela-history.svg?maxAge=2592000)](https://www.npmjs.com/package/quiniela-history)
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
