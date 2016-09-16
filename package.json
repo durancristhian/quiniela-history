@@ -47,7 +47,7 @@
     "nsp": "^2.6.0",
     "semantic-release": "^4.3.5",
     "snazzy": "^4.0.0",
-    "standard": "^7.1.2"
+    "standard": "^8.0.0"
   },
   "config": {
     "commitizen": {
