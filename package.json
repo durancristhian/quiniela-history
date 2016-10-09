@@ -38,7 +38,7 @@
     "async": "^2.0.1",
     "commander": "^2.9.0",
     "moment": "^2.14.1",
-    "quiniela-results": "^3.0.0"
+    "quiniela-results": "^4.0.0"
   },
   "devDependencies": {
     "commitizen": "^2.8.6",
