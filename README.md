@@ -16,7 +16,7 @@
 
 ## Demo
 
-![quiniela-history](https://raw.githubusercontent.com/durancristhian/quiniela-history/master/images/quiniela-history-demo-2.gif)
+![quiniela-history](https://raw.githubusercontent.com/durancristhian/quiniela-history/master/images/quiniela-history-demo-3.gif)
 
 ## Instalation
 

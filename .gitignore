@@ -34,3 +34,6 @@ node_modules
 
 # Generated results.json
 results.json
+
+# Mac
+.DS_Store
