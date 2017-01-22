@@ -1,7 +1,5 @@
 # quiniela-history
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/durancristhian/quiniela-history.svg)](https://greenkeeper.io/)
-
 [![npm version](https://img.shields.io/npm/v/quiniela-history.svg)](https://www.npmjs.com/package/quiniela-history)
 [![Travis branch](https://img.shields.io/travis/durancristhian/quiniela-history/master.svg?maxAge=2592000)](https://travis-ci.org/durancristhian/quiniela-history)
 [![Dependency Status](https://dependencyci.com/github/durancristhian/quiniela-history/badge)](https://dependencyci.com/github/durancristhian/quiniela-history)
@@ -11,6 +9,7 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?maxAge=2592000)](http://standardjs.com/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/durancristhian/quiniela-history.svg)](https://greenkeeper.io/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?maxAge=2592000)](http://makeapullrequest.com)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/durancristhian/quiniela-history/blob/master/LICENSE)
 
