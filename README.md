@@ -34,12 +34,12 @@ quiniela-history --from '2017-07-10' --to '2017-07-14'
 
 ```javascript
 const quinielaHistory = require('quiniela-history')
-let opts = {
+const opts = {
   emitLogs: true
 }
 
 quinielaHistory('2016-07-10', '2016-07-14', opts)
-  .catch(error => console.error(error))
+  .catch(console.error)
 ```
 
 ## Options
